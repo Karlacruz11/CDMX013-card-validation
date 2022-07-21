@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+
+    <div class="Etiqueta">
+      <div class="Logo">
+      </div>
+      <h1 > Venta de Cactus y Suculentas Online </h1>
+    </div>
+    <div class="EtiquetaPago">
+      <label class="stylepay"> Paso 3 Pago </label>
+    </div>
+    <div class= "payment-screen">
+    </div>
+    <br></br>
+    <div class="Shopping_image">
+      <img />
+    </div>
+    <div class="Card">
+      <h2 class="Card_title"> Tarjeta Bancaria</h2>
+      <label for="CNum">Número de tarjeta</label>
+      <input type="text" class="Cardinput" id="CardNumber" name="CNum" placeholder="16 digits"
+      maxlength="19" />
+
+
+      <div class="card_chip">
+        <img src='imgs/chip.png' alt="chip"/>
+      </div>
+
+    <div class="Cardrow">
+     <label for="Cexp">Fecha de vencimiento</label>
+     <input type="text" class="Cardinput"id="Cexp" size="5" placeholder="mes/año"   maxlength="5"/>
+     </div>
+     <div class="Cardcol">
+      <label for="CardCCV">CCV</label>
+      <input type="text" class="Cardinput" id="CCV" size="5" placeholder="xxx"  maxlength="3"/>
+      </div>
+
+
+
+     </div>
+     <div>
+       <input class="inputvalidar" type="button" value="Validar" id="submitval" />
+     </div>
+
+     <script src="index.js" type="module"></script>
+</body>
 </html>
