@@ -6,19 +6,18 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-
-
     <div class="Etiqueta">
       <div class="Logo">
       </div>
       <h1 > Venta de Cactus y Suculentas Online </h1>
     </div>
+    <div class= "payment-screen">
+    </div>
     <div class="EtiquetaPago">
       <label class="stylepay"> Paso 3 Pago </label>
     </div>
-    <div class= "payment-screen">
-    </div>
-    <br></br>
+
+     <br>
     <div class="Shopping_image">
       <img />
     </div>
@@ -28,26 +27,30 @@
       <input type="text" class="Cardinput" id="CardNumber" name="CNum" placeholder="16 digits"
       maxlength="19" />
 
-
       <div class="card_chip">
-        <img src='imgs/chip.png' alt="chip"/>
+        <img src="imgs/chip.png" alt="chip"/>
       </div>
 
     <div class="Cardrow">
      <label for="Cexp">Fecha de vencimiento</label>
-     <input type="text" class="Cardinput"id="Cexp" size="5" placeholder="mes/año"   maxlength="5"/>
+     <input type="text" class="Cardinput" id="Cexp" size="5" placeholder="mes/año"   maxlength="5" />
      </div>
+
      <div class="Cardcol">
       <label for="CardCCV">CCV</label>
       <input type="text" class="Cardinput" id="CCV" size="5" placeholder="xxx"  maxlength="3"/>
       </div>
 
-
-
      </div>
+
      <div>
        <input class="inputvalidar" type="button" value="Validar" id="submitval" />
      </div>
+
+     <div class="Messagetext">
+       <label  id="Message" >  </label>
+     </div>
+
 
      <script src="index.js" type="module"></script>
 </body>

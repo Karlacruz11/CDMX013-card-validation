@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   front-family: "Poppins", sans-serif;
+   font-family: "Poppins", sans-serif;
 
  }
  .Etiqueta {
@@ -60,7 +60,7 @@ background: url('imgs/SucuLovers1.png');
 position: absolute;
 width: 400px;
 height: 40px;
-left: 470px;
+left: 270px;
 top: 170px;
 
 background: #C3E0CA;
@@ -69,7 +69,7 @@ background: #C3E0CA;
   position: absolute;
   width: 148px;
   height: 40px;
-  left: 30px;
+  left: 40px;
   top: 6px;
 
 font-family: 'Roboto Flex';
@@ -84,7 +84,7 @@ color: #16300D;
   position: absolute;
 width: 400px;
 height: 410px;
-left: 470px;
+left: 270px;
 top: 170px;
 
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.2),
@@ -99,7 +99,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.2),
   position: absolute;
   width: 163px;
   height: 94px;
-  left: 600px;
+  left: 380px;
   top: 220px;
 
 background: url('imgs/Caja30pzs.png');
@@ -109,7 +109,7 @@ background: url('imgs/Caja30pzs.png');
   position: absolute;
 width: 371px;
 height: 200px;
-left: 486px;
+left: 286px;
 top: 329px;
 
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)
@@ -134,7 +134,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 .Cardcol{
   padding-bottom:  1rem;
-float: right;
+  float: right;
 
 }
 .Card_title{
@@ -169,7 +169,7 @@ position: absolute;
 width: 90px;
 height: 22px;
 margin-bottom: auto;
-left: calc(50% - 80px/2 - 22.5px);
+left: calc(34% - 60px/2 - 22.5px);
 top: calc(75% - 22px/2 + 106px);
 
 background: #78BA8E;
@@ -180,4 +180,13 @@ border-radius: 2px;
 .Cardinput: {
   outline: none;
   border-color: rgba(255, 0, 0, 0.8);
+}
+
+.Messagetext {
+  position: absolute;
+  margin-bottom: auto;
+  left: 520px ;
+  top: 548px ;
+
+ 
 }
