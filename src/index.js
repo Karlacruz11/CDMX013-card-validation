@@ -13,9 +13,10 @@ document.getElementById("CardNumber").value = validator.maskify(creditCardNumber
       else {
     document.getElementById("Message").innerHTML = "<span style= 'color: red; background: #C3E0CA;'> Tarjeta Invalida </span>" ;
       }
+
   let valueExp = document.getElementById("Cexp").value ;
    let Cexp = valueExp.split('/') ; // divide la cadena en arreglo
-  let mes = parseInt (Cexp [0]) ; //convierte la cadena en entero
+   let mes = parseInt (Cexp [0]) ; //convierte la cadena en entero
    if (mes <= 12 && mes > 0){
     console.log("Mes correcto")
    }
@@ -24,7 +25,7 @@ document.getElementById("CardNumber").value = validator.maskify(creditCardNumber
    }
  const fecha = new Date()
    let año = parseInt (Cexp [1]) ;
-   if (año >= fecha.getFullYear().toString().slice(-2)) {
+   if (año >= fecha.getFullYear().toString().slice(-2)) { //devuelve el año de la fecha especificada extrayendo los YY de la cadena
      console.log ("Ano correcto")
    }
    else {
@@ -43,7 +44,7 @@ document.getElementById("CardNumber").value = validator.maskify(creditCardNumber
   }
     //validacion de input text solo acepta numeros
 let solonumeros = document.getElementById("CardNumber");
-solonumeros.addEventListener("keyup", (e)=>{
+solonumeros.addEventListener("keyup", (e)=>{  // evento que ocurre cuando se suelta la tecla
   let valorinput = e.target.value; //guardando el valor del input
    solonumeros.value = valorinput
    .replace(/\D/g, '')//eliminar las letras

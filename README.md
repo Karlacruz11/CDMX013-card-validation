@@ -4,10 +4,14 @@
 
 ***
 
-##  Resumen del proyecto
+##  Resumen
 
 Vivero dedicado a la producción y venta en linea  de  especies  coleccionables
 de escasa venta fisica, de Cactus y suculentas.
+
+## Imagen Proyecto final
+
+![](<./Imagen Final.png>)
 
 ##  Investigación UX
    1. Esta dedicado para usuarios amantes de especies de lux, cactus y suculentas de
@@ -23,6 +27,6 @@ de escasa venta fisica, de Cactus y suculentas.
     El feedback de mis compañeras de squad y de las demo fue en diseño como colores y
     posiciones, y a que iba enfocado mi proyecto ya que no tenia una tematica concreta,
     por lo que realice mejoras de diseño en figma para despues mostralo en la interfaz.
-   5. Imagen del prototipo final.
+   5. Imagen del prototipo final (figma).
    ![](<./Vivero Suculovers.png>)
 ##### `README.md`
